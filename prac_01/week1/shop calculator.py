@@ -8,7 +8,7 @@ def calculate_total_price():
     num_items = int(input("Number of items: "))
 
     if num_items < 0:
-        print("Invalid number of items!")
+        print("Invalid number")
         num_items = int(input("Number of items: "))
 
     total_price = 0.0

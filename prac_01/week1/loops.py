@@ -1,4 +1,4 @@
-# Given for loop that displays odd numbers between 1 and 20
+# Given for loop that displays odd numbers between 1 to 20
 print("Odd numbers between 1 and 20:")
 for i in range(1, 21, 2):
     print(i, end=' ')
