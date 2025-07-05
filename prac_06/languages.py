@@ -24,13 +24,4 @@ def main():
         if language.is_dynamic() == True:
             print(language.name)
 
-    # maybe I should add more languages later?
-    # like javascript, c++, etc
-
-    # alternative way using list comprehension - too advanced for me now
-    # dynamic_languages = [language.name for language in languages if language.is_dynamic()]
-    # print("\nDynamic languages using list comprehension:")
-    # for language in dynamic_languages:
-    #     print(language)
-
 main()
